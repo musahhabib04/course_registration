@@ -23,4 +23,4 @@ def add_course(request):
     return render(request, 'courses/add_course.html', {'form': form})
 
 
-# Create your views here.
+
