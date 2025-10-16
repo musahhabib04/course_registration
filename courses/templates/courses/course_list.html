@@ -5,3 +5,17 @@
   {% endfor %}
 </ul>
 <a href="{% url 'add_course' %}">Add New Course</a>
+
+<ul>
+  {% for course in courses %}
+    <li>
+      {{ course.title }} - {{ course.description }}
+      <a href="{% url 'enroll_course' course.id %}">Enroll</a>
+    </li>
+  {% empty %}
+    <p>No courses available.</p>
+  {% endfor %}
+</ul>
+
+
+

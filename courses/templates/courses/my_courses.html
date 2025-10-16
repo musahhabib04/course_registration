@@ -1,0 +1,8 @@
+<h2>My Registered Courses</h2>
+<ul>
+  {% for enrollment in enrollments %}
+    <li>{{ enrollment.course.title }} (Enrolled on {{ enrollment.date_enrolled|date:"M d, Y" }})</li>
+  {% empty %}
+    <p>You haven't enrolled in any courses yet.</p>
+  {% endfor %}
+</ul>
