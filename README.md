@@ -1,11 +1,11 @@
-# 🎓 Course Registration System
+# Course Registration System
 
 A **Django-based web application** that allows users (students and administrators) to manage course registration efficiently.  
 This project demonstrates key Django concepts such as models, views, templates, authentication, and CRUD operations.
 
 ---
 
-## 🚀 Features
+## Features
 
 ✅ User authentication (login, logout, register)  
 ✅ Students can view available courses  
@@ -16,7 +16,7 @@ This project demonstrates key Django concepts such as models, views, templates, 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python 3.10+**
 - **Django 5.x**
@@ -26,11 +26,11 @@ This project demonstrates key Django concepts such as models, views, templates, 
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 Follow these steps to run the project locally 👇
 
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 ```bash
 git clone https://github.com/musahhabib04/course_registration.git
 cd course_registration
@@ -70,7 +70,7 @@ python manage.py runserver
 
 ---
 
-## 🧩 Folder Structure
+## Folder Structure
 
 ```
 course_registration/
@@ -87,16 +87,16 @@ course_registration/
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
-- 🎓 Add user roles (Student, Instructor, Admin)
-- 🧩 Course categories and prerequisites
-- 📊 Enrollment analytics dashboard
-- 📧 Email notifications for registration updates
+- Add user roles (Student, Instructor, Admin)
+- Course categories and prerequisites
+- Enrollment analytics dashboard
+- Email notifications for registration updates
 
 ---
 
-## 👤 Author
+## Author
 
 **Habib Musah**  
 💼 [LinkedIn](https://www.linkedin.com/in/habib-musah-5498bb161)  
